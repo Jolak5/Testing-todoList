@@ -1,4 +1,4 @@
-import { addTask } from '../modules/listTasks';
+import { addTask } from '../modules/listTasks.js';
 
 describe('adding tasks', () => {
   let toDoTasks = [];

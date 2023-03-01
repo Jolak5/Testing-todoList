@@ -1,4 +1,4 @@
-import { deleteTask } from '../modules/listTasks';
+import { deleteTask } from '../modules/listTasks.js';
 
 describe('deleting tasks', () => {
   test('deleteTask', () => {

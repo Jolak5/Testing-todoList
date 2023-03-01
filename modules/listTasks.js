@@ -53,7 +53,7 @@ export const editTask = (toDoListArray, taskToEdit, task) => {
 
 export const deleteTask = (toDoListArray, taskObj) => {
   const taskIndex = toDoListArray.findIndex(
-    (task) => task.task === taskObj.task
+    (task) => task.task === taskObj.task,
   );
   toDoListArray.splice(taskIndex, 1);
   toDoListArray.forEach((task, index) => {

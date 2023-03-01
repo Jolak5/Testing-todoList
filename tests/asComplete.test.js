@@ -1,4 +1,4 @@
-import { markTask } from '../modules/listTasks';
+import { markTask } from '../modules/listTasks.js';
 
 describe('markTask', () => {
   const toDoListArray = [

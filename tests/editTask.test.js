@@ -1,4 +1,4 @@
-import { editTask } from '../modules/listTasks';
+import { editTask } from '../modules/listTasks.js';
 
 describe('editTask', () => {
   const toDoListArray = [

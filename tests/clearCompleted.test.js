@@ -1,4 +1,4 @@
-import { clearCompleted } from '../modules/listTasks';
+import { clearCompleted } from '../modules/listTasks.js';
 
 describe('clearCompleted', () => {
   test('should clear all completed tasks', () => {
